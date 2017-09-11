@@ -1,0 +1,118 @@
+#container {
+	font-size: 14px;
+	width: 650px;
+	margin: 0px auto;
+	text-align center;
+}
+
+/*  Category   */
+#categorybox {
+	width: 623px;
+}
+/*            */
+
+/*  Gallery   */
+
+/*            */
+
+/* Main Image */
+#imagebox {
+	position:relative;
+  width: 640px;
+}
+#imagebox img {
+	position:absolute;
+	top:0;
+  left:0;
+	visibility: hidden;
+}
+#imagebox img.active {
+	visibility: visible;
+}
+
+#imagebox img.last-active {
+	z-index:9;
+}
+/*            */
+
+/* Caption for image */
+#infobox {
+	font-size: 18px;
+	padding: 8px;
+	position: absolute;
+	background-color: #000;
+	height: 20px;
+	width: 603px;
+	z-index: 9999;
+	opacity: .7;
+	bottom: 0px;
+  left: 0px;
+	color: #FFF;
+}
+/*            */
+
+/* Generic selectors */
+body {
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+	color: #333333;
+	background-color: #FFF;
+}
+
+.center {
+	margin: auto;
+	width: 640px;
+  border: 1px solid #FFF;
+  padding: 10px;
+}
+
+.active {
+	z-index:99;
+}
+
+.mediumimg {
+	width: 623px;
+}
+
+.thumbnail {
+	display: block;
+	height: 64px;
+	padding: 2px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.control{
+	width: 20px;
+	height: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.opacity100 {
+	opacity: 1.0;
+}
+
+.opacity75 {
+	opacity: .75;
+}
+
+.buttonselected {
+	background-color: #AAAAAA;
+}
+/*            */
